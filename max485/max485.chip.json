@@ -1,0 +1,15 @@
+{
+  "name": "max485",
+  "author": "김랑기(전자명장)",
+  "pins": [
+    "RO",
+    "RE",
+    "DE",
+    "DI",
+    "GND",
+    "A",
+    "B",
+    "VCC"
+  ],
+  "controls": []
+}

@@ -1,0 +1,49 @@
+{
+  "name": "max31855",
+  "author": "김랑기(전자명장)",
+  "pins": [
+    "GND",
+    "T-",
+    "T+",
+    "Vcc",
+
+    "SCK",
+    "nCS",
+    "SO"
+  ],
+  "controls": [
+  {
+      "id": "temperature",
+      "label": "Max31885 Temperature for K type thermocouple in celcius",
+      "type": "range",
+      "min": -200,
+      "max": 1260,
+      "step": 0.125
+    },
+    {
+      "id":"D2",
+      "label":"D2 Fault bit - high to trigger Vcc short",
+      "type": "button",
+      "min": 0,
+      "max": 1,
+      "step": 1
+    }
+    ,
+    {
+      "id":"D1",
+      "label":"D1 Fault bit - high to trigger GND short",
+      "type": "button",
+      "min": 0,
+      "max": 1,
+      "step": 1
+    },
+    {
+      "id":"D0",
+      "label":"D0 Fault bit - high to trigger open short",
+      "type": "button",
+      "min": 0,
+      "max": 1,
+      "step": 1
+    }
+  ]
+}
